@@ -3,19 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package whiteboard2021;
+package mousedraw;
 
 /**
  *
- * @author ayush
+ * @author aswathy
  */
-public class Main {
+public class Delta {
+    byte dx,dy;
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-       // hello changed in github 1
+    public Delta() {
     }
+
+    @Override
+    public String toString() {
+        return " (" + dx + "," + dy + ')';
+    }
+    
     
 }
